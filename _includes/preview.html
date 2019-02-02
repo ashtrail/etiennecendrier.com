@@ -1,31 +1,37 @@
-<div style="margin-top: 40px">
-  <transition name="fade">
-    <div id="preview" v-bind:style="selectedUrl"></div>
-  </transition>
+<div id="preview-container">
+  <transition-group id="preview" name="fade" tag="div">
+    <div
+      v-for="(artwork, i) in artworks"
+      v-bind:key="getUrl(i)"
+      v-if="i === index"
+      class="preview-item"
+      v-bind:style="getStyle(i)"
+    ></div>
+  </transition-group>
 </div>
 
 <script type="text/javascript">
   new Vue({
-    el: '#preview',
-    delimiters: ['((', '))'],
-    data: {
-      artworks: [],
-      index: 0,
-      timer: ''
-    },
-    computed: {
-      selectedUrl: function() {
-        return {
-          'background-image': `url('/assets/images/${
-            this.artworks[this.index].url
-          }')`
-        };
-      }
+    el: '#preview-container',
+    data: function() {
+      return {
+        artworks: [],
+        index: 0,
+        timer: ''
+      };
     },
     methods: {
       switchImage: function() {
         this.index =
           this.index + 1 >= this.artworks.length ? 0 : this.index + 1;
+      },
+      getUrl: function(index) {
+        return `/assets/images/${this.artworks[index].url}`;
+      },
+      getStyle: function(index) {
+        return {
+          'background-image': `url(${this.getUrl(index)})`
+        };
       }
     },
     created: function() {
@@ -42,3 +48,34 @@
     }
   });
 </script>
+
+<style>
+  #preview {
+    position: relative;
+    height: 450px;
+    margin-top: 40px;
+  }
+
+  .preview-item {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+  .fade-enter,
+  .fade-leave-to {
+    opacity: 0;
+  }
+</style>
