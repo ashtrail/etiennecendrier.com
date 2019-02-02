@@ -1,0 +1,50 @@
+dessins:
+  - url: 'dessin_1.png'
+    description: Fusain 75x55 cm
+    sold: true
+  - url: 'dessin_2.png'
+    description: Fusain 120x80 cm
+    sold: true
+  - url: 'dessin_24.png'
+    description: Pastel 80x60 cm
+    sold: true
+  - url: 'dessin_25.png'
+    description: Crayon 40x30 cm
+    sold: false
+  - url: 'dessin_33.png'
+    description: Sanguine 120x80 cm
+    sold: true
+
+pastels:
+  - url: 'pastel_1.png'
+    description: Pastel 130x130 cm
+    sold: false
+  - url: 'pastel_4.png'
+    description: Pastel 50x120 cm
+    sold: true
+  - url: 'pastel_11.png'
+    description: Pastel 50x120 cm
+    sold: true
+  - url: 'pastel_12.png'
+    description: Pastel 120x80 cm
+    sold: true
+  - url: 'pastel_6.png'
+    description: Pastel 50x120 cm
+    sold: false
+  - url: 'pastel_7.png'
+    description: Pastel 120x160 cm
+    sold: false
+
+chimeres:
+  - url: 'sketchbook_6.png'
+    description: Stylo Bille 15x21 cm
+    sold: true
+  - url: 'sketchbook_7.png'
+    description: Stylo Bille 15x21 cm
+    sold: true
+  - url: 'sketchbook_8.png'
+    description: Stylo Bille 15x21 cm
+    sold: true
+  - url: 'sketchbook_9.png'
+    description: Fusain 65x65cm
+    sold: false

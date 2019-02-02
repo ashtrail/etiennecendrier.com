@@ -1,0 +1,44 @@
+<div style="margin-top: 40px">
+  <transition name="fade">
+    <div id="preview" v-bind:style="selectedUrl"></div>
+  </transition>
+</div>
+
+<script type="text/javascript">
+  new Vue({
+    el: '#preview',
+    delimiters: ['((', '))'],
+    data: {
+      artworks: [],
+      index: 0,
+      timer: ''
+    },
+    computed: {
+      selectedUrl: function() {
+        return {
+          'background-image': `url('/assets/images/${
+            this.artworks[this.index].url
+          }')`
+        };
+      }
+    },
+    methods: {
+      switchImage: function() {
+        this.index =
+          this.index + 1 >= this.artworks.length ? 0 : this.index + 1;
+      }
+    },
+    created: function() {
+      this.timer = setInterval(this.switchImage, 3000);
+    },
+    // init
+    beforeMount() {
+      // injecting data from jekyll
+      this.artworks = JSON.parse('{{ site.data.preview | jsonify }}');
+      this.index = 0;
+    },
+    beforeDestroy() {
+      clearInterval(this.timer);
+    }
+  });
+</script>

@@ -1,0 +1,103 @@
+<!-- template for the modal component -->
+<script type="text/x-template" id="modal-template">
+  <transition name="modal">
+    <div class="modal-mask" @click="$emit('close')">
+      <div class="modal-wrapper">
+        <div class="modal-container">
+          <img class="modal-image" :src='image'>
+        </div>
+      </div>
+    </div>
+  </transition>
+</script>
+
+<!-- gallery -->
+<div id="galery-slideshow">
+  <div id="galery">
+    <div id="slideshow">
+      <div id="artwork">
+        <img
+          v-bind:src="getUrl(selected)"
+          :alt="selected.description"
+        >
+        <!-- with the current resolution of the image this feature is useless -->
+        <!-- @click="showModal = true" -->
+      </div>
+      <div id="caption">((caption))</div>
+    </div>
+    <div id="filler"></div>
+    <div id="thumbnails" v-bind:style="getThumbnailsDimensions">
+      <div
+        class="thumbnail"
+        v-for="artwork in artworks"
+        v-bind:class="isSelected(artwork)"
+        v-on:click="select(artwork)"
+      >
+        <div class='thumb' v-bind:style="thumbUrl(artwork)"></div>
+      </div>
+    </div>
+  </div>
+  <modal :image='selectedUrl' v-if="showModal" @close="showModal = false" />
+</div>
+
+<script type="text/javascript">
+
+  Vue.component('modal', {
+    props: ['image'],
+    template: '#modal-template'
+  })
+
+  new Vue({
+    el: '#galery-slideshow',
+    delimiters: ["((", "))"],
+    data: {
+      artworks: [],
+      selected: {},
+      showModal: false
+    },
+    computed: {
+      caption: function () {
+        const soldText = (this.selected.sold) ? '(Vendu)' : '';
+        return this.selected.description + ' ' + soldText;
+      },
+      getThumbnailsDimensions: function () {
+        let cols = this.artworks.length > 16 ? 3 : 2;
+        let rows = Math.ceil(this.artworks.length / cols);
+        // get pixel values
+        cols = cols * (54 + 10);
+        rows = rows * (54 + 10);
+        return {
+          'height': `${rows}px`,
+          'width': `${cols}px`,
+        }
+      },
+      selectedUrl: function () {
+        return this.getUrl(this.selected);
+      }
+    },
+    methods: {
+      isSelected(artwork) {
+        return {
+          'selected': this.selected === artwork
+        }
+      },
+      select(artwork) {
+        this.selected = artwork;
+      },
+      getUrl(artwork) {
+        return `/assets/images/{{include.name}}/${artwork.url}`;
+      },
+      thumbUrl(artwork) {
+        return {
+          'background-image': `url('/assets/images/{{include.name}}/${artwork.url}')`,
+        };
+      }
+    },
+    // init
+    beforeMount() {
+      // injecting data from jekyll
+      this.artworks = JSON.parse('{{ site.data.artworks | jsonify }}')['{{ include.name }}'];
+      this.selected = this.artworks[0];
+    }
+  })
+</script>
