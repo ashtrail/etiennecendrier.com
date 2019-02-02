@@ -19,7 +19,7 @@
         <img
           :src="getUrl(selected)"
           :alt="selected.description"
-        >
+          >
         <!-- with the current resolution of the image this feature is useless -->
         <!-- @click="showModal = true" -->
       </div>
@@ -87,9 +87,12 @@
       getUrl(artwork) {
         return `assets/images/{{include.name}}/${artwork.url}`;
       },
+      getThumbUrl(artwork) {
+        return `assets/images/{{include.name}}/t_${artwork.url}`;
+      },
       thumbUrl(artwork) {
         return {
-          'background-image': `url(${this.getUrl(artwork)})`,
+          'background-image': `url(${this.getThumbUrl(artwork)})`,
         };
       }
     },
