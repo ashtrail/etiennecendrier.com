@@ -2,10 +2,10 @@
   <transition-group id="preview" name="fade" tag="div">
     <div
       v-for="(artwork, i) in artworks"
-      v-bind:key="getUrl(i)"
+      :key="getUrl(i)"
       v-if="i === index"
       class="preview-item"
-      v-bind:style="getStyle(i)"
+      :style="getStyle(i)"
     ></div>
   </transition-group>
 </div>

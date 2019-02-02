@@ -17,7 +17,7 @@
     <div id="slideshow">
       <div id="artwork">
         <img
-          v-bind:src="getUrl(selected)"
+          :src="getUrl(selected)"
           :alt="selected.description"
         >
         <!-- with the current resolution of the image this feature is useless -->
@@ -26,14 +26,14 @@
       <div id="caption">((caption))</div>
     </div>
     <div id="filler"></div>
-    <div id="thumbnails" v-bind:style="getThumbnailsDimensions">
+    <div id="thumbnails" :style="getThumbnailsDimensions">
       <div
         class="thumbnail"
         v-for="artwork in artworks"
-        v-bind:class="isSelected(artwork)"
-        v-on:click="select(artwork)"
+        :class="isSelected(artwork)"
+        @click="select(artwork)"
       >
-        <div class='thumb' v-bind:style="thumbUrl(artwork)"></div>
+        <div class='thumb' :style="thumbUrl(artwork)"></div>
       </div>
     </div>
   </div>
