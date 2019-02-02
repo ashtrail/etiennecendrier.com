@@ -1,3 +1,4 @@
 _site
 utils/*
 .sass-cache/*
+*/images/*

@@ -5,21 +5,114 @@ dessins:
   - url: 'dessin_2.png'
     description: Fusain 120x80 cm
     sold: true
+  - url: 'dessin_4.png'
+    description: Fusain 80x65 cm
+    sold: false
+  - url: 'dessin_10.png'
+    description: Fusain 80x65 cm
+    sold: false
+  - url: 'dessin_6.png'
+    description: Graphite 13x13 cm
+    sold: true
+  - url: 'dessin_27.png'
+    description: Crayon 40x30 cm
+    sold: false
+  - url: 'dessin_32.png'
+    description: Fusain 80x60 cm
+    sold: false
+  - url: 'dessin_18.png'
+    description: Fusain 120x80 cm
+    sold: false
+  - url: 'dessin_19.png'
+    description: Crayon 40x25 cm
+    sold: true
+  - url: 'dessin_20.png'
+    description: Crayon 90x65 cm
+    sold: true
+  - url: 'dessin_21.png'
+    description: Fusain 120x80 cm
+    sold: true
+  - url: 'dessin_22.png'
+    description: Stylo Bille 30x20 cm
+    sold: false
   - url: 'dessin_24.png'
     description: Pastel 80x60 cm
     sold: true
   - url: 'dessin_25.png'
     description: Crayon 40x30 cm
     sold: false
+  - url: 'dessin_26.png'
+    description: Crayon 19x10 cm
+    sold: true
+  - url: 'dessin_28.png'
+    description: Fusain 120x80 cm
+    sold: false
+  - url: 'dessin_29.png'
+    description: Fusain 120x80 cm
+    sold: false
+  - url: 'dessin_30.png'
+    description: Fusain 120x80 cm
+    sold: false
+  - url: 'dessin_31.png'
+    description: Fusain 75x35 cm
+    sold: false
   - url: 'dessin_33.png'
     description: Sanguine 120x80 cm
     sold: true
+  - url: 'dessin_11.png'
+    description: Fusain/papier 33x25 cm
+    sold: true
+  - url: 'dessin_16.png'
+    description: Graphite/papier 13,5x9 cm
+    sold: true
+  - url: 'dessin_5.png'
+    description: Graphite 14x9 cm
+    sold: true
+  - url: 'dessin_17.png'
+    description: Graphite/papier 13,5x9 cm
+    sold: true
+  - url: 'dessin_8.png'
+    description: Graphite 14x9 cm
+    sold: true
+  - url: 'dessin_23.png'
+    description: Crayon 30x20 cm
+    sold: false
+  - url: 'dessin_14.png'
+    description: Fusain/papier 60x100 cm
+    sold: false
+  - url: 'dessin_12.png'
+    description: Graphite/papier 9x13,5 cm
+    sold: false
+  - url: 'dessin_13.png'
+    description: Graphite/papier 9x13,5 cm
+    sold: false
+  - url: 'dessin_15.png'
+    description: Fusain/papier 60x100 cm
+    sold: false
 
 pastels:
   - url: 'pastel_1.png'
     description: Pastel 130x130 cm
     sold: false
+  - url: 'pastel_3.png'
+    description: Pastel 50x120 cm
+    sold: false
   - url: 'pastel_4.png'
+    description: Pastel 50x120 cm
+    sold: true
+  - url: 'pastel_6.png'
+    description: Pastel 50x120 cm
+    sold: false
+  - url: 'pastel_7.png'
+    description: Pastel 120x160 cm
+    sold: false
+  - url: 'pastel_8.png'
+    description: Pastel 50x120 cm
+    sold: true
+  - url: 'pastel_9.png'
+    description: Pastel 50x120 cm
+    sold: true
+  - url: 'pastel_10.png'
     description: Pastel 50x120 cm
     sold: true
   - url: 'pastel_11.png'
@@ -28,11 +121,8 @@ pastels:
   - url: 'pastel_12.png'
     description: Pastel 120x80 cm
     sold: true
-  - url: 'pastel_6.png'
+  - url: 'pastel_13.png'
     description: Pastel 50x120 cm
-    sold: false
-  - url: 'pastel_7.png'
-    description: Pastel 120x160 cm
     sold: false
 
 chimeres:
