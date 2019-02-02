@@ -10,7 +10,7 @@
     {% endif%}
     Etienne Cendrier
   </title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
   {% if jekyll.environment == "production" %}
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
   {% endif %}
@@ -18,13 +18,10 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   {% endif %}
 </head>
-  <script>
-    window.artworks = null;
-  </script>
 
 <body>
   <div id="content">
-    <h1> <a href="/">etienne cendrier</a> </h1>
+    <h1> <a href="index.html">etienne cendrier</a> </h1>
     <div class="separator"></div>
     {% include navigation.liquid.html %}
     {{ content }}

@@ -85,11 +85,11 @@
         this.selected = artwork;
       },
       getUrl(artwork) {
-        return `/assets/images/{{include.name}}/${artwork.url}`;
+        return `assets/images/{{include.name}}/${artwork.url}`;
       },
       thumbUrl(artwork) {
         return {
-          'background-image': `url('/assets/images/{{include.name}}/${artwork.url}')`,
+          'background-image': `url(${this.getUrl(artwork)})`,
         };
       }
     },
