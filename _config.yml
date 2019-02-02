@@ -1,3 +1,4 @@
 exclude:
   - .gitignore
   - utils/
+  - README.md
