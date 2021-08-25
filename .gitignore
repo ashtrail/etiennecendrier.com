@@ -1,4 +1,4 @@
 _site
 utils/*
 .sass-cache/*
-*/images/*
+.jekyll-cache/*
