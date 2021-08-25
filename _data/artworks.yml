@@ -17,9 +17,6 @@ dessins:
   - url: 'dessin_32.png'
     description: Fusain 80x60 cm
     sold: false
-  - url: 'dessin_19.png'
-    description: Crayon 40x25 cm
-    sold: true
   - url: 'dessin_20.png'
     description: Crayon 90x65 cm
     sold: true
@@ -28,9 +25,6 @@ dessins:
     sold: true
   - url: 'dessin_25.png'
     description: Crayon 40x30 cm
-    sold: false
-  - url: 'dessin_29.png'
-    description: Fusain 120x80 cm
     sold: false
   - url: 'dessin_31.png'
     description: Fusain 75x35 cm
@@ -50,12 +44,6 @@ dessins:
   - url: 'dessin_8.png'
     description: Graphite 14x9 cm
     sold: true
-  - url: 'dessin_23.png'
-    description: Crayon 30x20 cm
-    sold: false
-  - url: 'dessin_14.png'
-    description: Fusain/papier 60x100 cm
-    sold: false
   - url: 'dessin_12.png'
     description: Graphite/papier 9x13,5 cm
     sold: false
