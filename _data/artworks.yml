@@ -11,17 +11,11 @@ dessins:
   - url: 'dessin_10.png'
     description: Fusain 80x65 cm
     sold: false
-  - url: 'dessin_6.png'
-    description: Graphite 13x13 cm
-    sold: true
   - url: 'dessin_27.png'
     description: Crayon 40x30 cm
     sold: false
   - url: 'dessin_32.png'
     description: Fusain 80x60 cm
-    sold: false
-  - url: 'dessin_18.png'
-    description: Fusain 120x80 cm
     sold: false
   - url: 'dessin_19.png'
     description: Crayon 40x25 cm
@@ -32,35 +26,17 @@ dessins:
   - url: 'dessin_21.png'
     description: Fusain 120x80 cm
     sold: true
-  - url: 'dessin_22.png'
-    description: Stylo Bille 30x20 cm
-    sold: false
-  - url: 'dessin_24.png'
-    description: Pastel 80x60 cm
-    sold: true
   - url: 'dessin_25.png'
     description: Crayon 40x30 cm
     sold: false
-  - url: 'dessin_26.png'
-    description: Crayon 19x10 cm
-    sold: true
-  - url: 'dessin_28.png'
-    description: Fusain 120x80 cm
-    sold: false
   - url: 'dessin_29.png'
-    description: Fusain 120x80 cm
-    sold: false
-  - url: 'dessin_30.png'
     description: Fusain 120x80 cm
     sold: false
   - url: 'dessin_31.png'
     description: Fusain 75x35 cm
     sold: false
-  - url: 'dessin_33.png'
-    description: Sanguine 120x80 cm
-    sold: true
-  - url: 'dessin_11.png'
-    description: Fusain/papier 33x25 cm
+  - url: 'dessin_34.jpg'
+    description: Pastel 120x80 cm
     sold: true
   - url: 'dessin_16.png'
     description: Graphite/papier 13,5x9 cm
@@ -103,19 +79,10 @@ pastels:
   - url: 'pastel_6.png'
     description: Pastel 50x120 cm
     sold: false
-  - url: 'pastel_7.png'
-    description: Pastel 120x160 cm
-    sold: false
   - url: 'pastel_8.png'
     description: Pastel 50x120 cm
     sold: true
   - url: 'pastel_9.png'
-    description: Pastel 50x120 cm
-    sold: true
-  - url: 'pastel_10.png'
-    description: Pastel 50x120 cm
-    sold: true
-  - url: 'pastel_11.png'
     description: Pastel 50x120 cm
     sold: true
   - url: 'pastel_12.png'
@@ -123,6 +90,18 @@ pastels:
     sold: true
   - url: 'pastel_13.png'
     description: Pastel 50x120 cm
+    sold: false
+  - url: 'pastel_10.png'
+    description: Pastel 50x120 cm
+    sold: true
+  - url: 'pastel_14.jpg'
+    description: Ciel 56x76 cm
+    sold: false
+  - url: 'ciel_15.jpeg'
+    description: Bic/papier 60x80 cm
+    sold: false
+  - url: 'ciel_16.jpg'
+    description: Pastel 56x76 cm
     sold: false
 
 chimeres:
