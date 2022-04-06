@@ -1,7 +1,7 @@
 <nav>
   {% for item in site.data.navigation %}
     {% if item != site.data.navigation[0] %}/{% endif %}
-    <a href="{{ item.link }}">
+    <a class="nav-link" href="{{ item.link }}">
       {{ item.name }}
     </a>
   {% endfor %}
