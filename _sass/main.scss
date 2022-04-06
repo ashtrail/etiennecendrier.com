@@ -28,6 +28,11 @@ a:hover {
   font-weight: normal;
 }
 
+.nav-link.is-current {
+  color: black;
+  font-size: 1.05em;
+}
+
 .nav-link:hover,
 .title-link:hover {
   color: black;
