@@ -12,7 +12,7 @@ dessins:
     description: Fusain 80x65 cm
     sold: false
   - url: 'dessin_27.png'
-    description: Crayon 40x30 cm
+    description: Fusain 120x80cm
     sold: false
   - url: 'dessin_32.png'
     description: Fusain 80x60 cm
@@ -110,17 +110,17 @@ sculptures:
   - url: 'sculpt_1.jpg'
     description: Cire Tête Grandeur Nature
     sold: false
-  - url: 'sculpt_3.jpg'
-    description: Cire Tête Grandeur Nature (en cours) - Vue 1
-    sold: false
-  - url: 'sculpt_5.jpg'
-    description: Cire Tête de Cochon Grandeur Nature
-    sold: false
   - url: 'sculpt_2.jpg'
     description: Cire Tête Détail
     sold: false
+  - url: 'sculpt_3.jpg'
+    description: Cire Tête Grandeur Nature (en cours) - Vue 1
+    sold: false
   - url: 'sculpt_4.jpg'
     description: Cire Tête Grandeur Nature (en cours) - Vue 2
+    sold: false
+  - url: 'sculpt_5.jpg'
+    description: Cire Tête de Cochon Grandeur Nature
     sold: false
   - url: 'sculpt_6.jpg'
     description: Argile Diablotin (speed sculpt)
