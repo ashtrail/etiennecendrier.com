@@ -92,19 +92,6 @@ pastels:
     description: Pastel 56x76 cm
     sold: false
 
-chimeres:
-  - url: 'sketchbook_6.png'
-    description: Stylo Bille 15x21 cm
-    sold: true
-  - url: 'sketchbook_7.png'
-    description: Stylo Bille 15x21 cm
-    sold: true
-  - url: 'sketchbook_8.png'
-    description: Stylo Bille 15x21 cm
-    sold: true
-  - url: 'sketchbook_9.png'
-    description: Fusain 65x65cm
-    sold: false
 
 sculptures:
   - url: 'sculpt_1.jpg'
@@ -122,6 +109,23 @@ sculptures:
   - url: 'sculpt_5.jpg'
     description: Cire Tête de Cochon Grandeur Nature
     sold: false
-  - url: 'sculpt_6.jpg'
-    description: Argile Diablotin (speed sculpt)
+
+traits:
+  - url: 'trait_2.jpg' # glasses
+    description: Graphite 25x25 cm
+    sold: false
+  - url: 'trait_3.jpg' # seated
+    description: Graphite 40x35 cm
+    sold: false
+  - url: 'trait_6.jpg' # anatomy
+    description: Graphite 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
+    sold: false
+  - url: 'trait_1.jpg' # profile
+    description: Graphite 25x25 cm
+    sold: false
+  - url: 'trait_4.jpg' # face
+    description: Graphite 20x20 cm
+    sold: false
+  - url: 'trait_5.jpg' # skeleton
+    description: Crayon bleu 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
     sold: false

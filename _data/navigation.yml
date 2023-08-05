@@ -2,10 +2,10 @@
   link: ciel.html
 - name: dessin
   link: dessin.html
-- name: sculpture
-  link: sculpture.html
-- name: chimère
-  link: chimere.html
+- name: trait
+  link: trait.html
+- name: scuplture
+  link: scuplture.html
 - name: biographie
   link: biographie.html
 - name: contact
