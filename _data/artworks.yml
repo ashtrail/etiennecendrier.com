@@ -5,23 +5,17 @@ dessins:
   - url: 'dessin_2.png'
     description: Fusain 120x80 cm
     sold: true
-  - url: 'dessin_4.png'
-    description: Fusain 80x65 cm
-    sold: false
   - url: 'dessin_10.png'
     description: Fusain 80x65 cm
     sold: false
   - url: 'dessin_27.png'
-    description: Fusain 120x80cm
+    description: Fusain 120x80 cm
     sold: false
   - url: 'dessin_32.png'
     description: Fusain 80x60 cm
     sold: false
   - url: 'dessin_20.png'
     description: Crayon 90x65 cm
-    sold: true
-  - url: 'dessin_21.png'
-    description: Fusain 120x80 cm
     sold: true
   - url: 'dessin_25.png'
     description: Crayon 40x30 cm
@@ -33,25 +27,31 @@ dessins:
     description: Pastel 120x80 cm
     sold: true
   - url: 'dessin_16.png'
-    description: Graphite/papier 13,5x9 cm
+    description: Graphite 13,5x9 cm
     sold: true
   - url: 'dessin_5.png'
     description: Graphite 14x9 cm
     sold: true
   - url: 'dessin_17.png'
-    description: Graphite/papier 13,5x9 cm
+    description: Graphite 13,5x9 cm
     sold: true
   - url: 'dessin_8.png'
     description: Graphite 14x9 cm
     sold: true
   - url: 'dessin_12.png'
-    description: Graphite/papier 9x13,5 cm
-    sold: false
-  - url: 'dessin_13.png'
-    description: Graphite/papier 9x13,5 cm
+    description: Graphite 9x13,5 cm
     sold: false
   - url: 'dessin_15.png'
-    description: Fusain/papier 60x100 cm
+    description: Fusain 60x100 cm
+    sold: false
+  - url: 'dessin_36.jpg'
+    description: Graphite 25x25 cm
+    sold: false
+  - url: 'dessin_37.jpg'
+    description: Fusain 80x60 cm
+    sold: false
+  - url: 'dessin_38.jpg'
+    description: Graphite 35x42,5 cm
     sold: false
 
 pastels:
