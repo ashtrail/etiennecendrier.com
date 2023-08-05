@@ -73,25 +73,18 @@ pastels:
   - url: 'pastel_9.png'
     description: Pastel 50x120 cm
     sold: true
-  - url: 'pastel_12.png'
-    description: Pastel 120x80 cm
-    sold: true
   - url: 'pastel_13.png'
     description: Pastel 50x120 cm
     sold: false
-  - url: 'pastel_10.png'
-    description: Pastel 50x120 cm
-    sold: true
   - url: 'pastel_14.jpg'
     description: Ciel 56x76 cm
     sold: false
-  - url: 'ciel_15.jpeg'
-    description: Bic/papier 60x80 cm
+  - url: 'pastel_17.jpg' # ciel gris
+    description: Pastel 250x200 cm
     sold: false
-  - url: 'ciel_16.jpg'
-    description: Pastel 56x76 cm
-    sold: false
-
+  - url: 'pastel_18.jpg' # ciel bleu, nuage gros plan
+    description: Pastel 76x56 cm
+    sold: true
 
 sculptures:
   - url: 'sculpt_1.jpg'
