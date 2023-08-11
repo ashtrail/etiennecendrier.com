@@ -26,6 +26,15 @@ dessins:
   - url: 'dessin_34.jpg'
     description: Pastel 120x80 cm
     sold: true
+  - url: 'dessin_37.jpg'
+    description: Fusain 80x60 cm
+    sold: false
+  - url: 'dessin_38.jpg'
+    description: Graphite 35x42,5 cm
+    sold: false
+  - url: 'dessin_36.jpg'
+    description: Graphite 25x25 cm
+    sold: false
   - url: 'dessin_16.png'
     description: Graphite 13,5x9 cm
     sold: true
@@ -43,15 +52,6 @@ dessins:
     sold: false
   - url: 'dessin_15.png'
     description: Fusain 60x100 cm
-    sold: false
-  - url: 'dessin_36.jpg'
-    description: Graphite 25x25 cm
-    sold: false
-  - url: 'dessin_37.jpg'
-    description: Fusain 80x60 cm
-    sold: false
-  - url: 'dessin_38.jpg'
-    description: Graphite 35x42,5 cm
     sold: false
 
 pastels:
@@ -90,17 +90,17 @@ sculptures:
   - url: 'sculpt_1.jpg'
     description: Cire Tête Grandeur Nature
     sold: false
-  - url: 'sculpt_4.jpg'
-    description: Cire Tête Grandeur Nature (en cours) - Vue 1
-    sold: false
+  # - url: 'sculpt_4.jpg'
+  #   description: Cire Tête Grandeur Nature (en cours) - Vue 1
+  #   sold: false
   - url: 'sculpt_5.jpg'
     description: Cire Tête de Cochon Grandeur Nature
     sold: false
-  - url: 'sculpt_7.jpg'
-    description: Cire Tête Grandeur Nature
-    sold: false
+  # - url: 'sculpt_7.jpg'
+  #   description: Cire Tête Grandeur Nature
+  #   sold: false
   - url: 'sculpt_3.jpg'
-    description: Cire Tête Grandeur Nature (en cours) - Vue 2
+    description: Cire Tête Grandeur Nature (en cours)
     sold: false
   - url: 'sculpt_6.jpg'
     description: Auto-caricature (speed sculpt)
@@ -110,18 +110,18 @@ traits:
   - url: 'trait_2.jpg' # glasses
     description: Graphite 25x25 cm
     sold: false
-  - url: 'trait_3.jpg' # seated
-    description: Graphite 40x35 cm
-    sold: false
+  # - url: 'trait_3.jpg' # seated
+  #   description: Graphite 40x35 cm
+  #   sold: false
   - url: 'trait_6.jpg' # anatomy
     description: Graphite 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
     sold: false
   - url: 'trait_1.jpg' # profile
     description: Graphite 25x25 cm
     sold: false
-  - url: 'trait_4.jpg' # face
-    description: Graphite 20x20 cm
-    sold: false
+  # - url: 'trait_4.jpg' # face
+  #   description: Graphite 20x20 cm
+  #   sold: false
   - url: 'trait_5.jpg' # skeleton
     description: Crayon bleu 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
     sold: false
