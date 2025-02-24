@@ -35,8 +35,8 @@ dessins:
   - url: 'dessin_36.jpg'
     description: Graphite sur calque 25x25 cm # Portrait Basile
     sold: false
-  - url: 'dessin_39.jpg'
-    description: Bic 76x56 cm # Ciel orageux noir et blanc
+  - url: 'dessin_43.jpg'
+    description: Graphite 46x50 cm # Portrait Lili
     sold: false
   - url: 'dessin_16.png'
     description: Graphite 13,5x9 cm
@@ -65,43 +65,47 @@ dessins:
   - url: 'dessin_15.png'
     description: Fusain 60x100 cm
     sold: false
-  # - url: 'dessin_43.jpg'
-  #   description: Graphite # Portrait Lili, sans dimensions
-  #   sold: false
-# Current max index: 43
+# Current max index: 43, 39 was moved to "ciels"
 
-pastels:
-  - url: 'pastel_1.png'
+ciels:
+  - url: 'ciel_1.png'
     description: Pastel 130x130 cm
     sold: false
-  - url: 'pastel_4.png'
+  - url: 'ciel_4.png'
     description: Pastel 50x120 cm
     sold: true
-  - url: 'pastel_8.png'
+  - url: 'ciel_8.png'
     description: Pastel 50x120 cm
     sold: true
-  - url: 'pastel_6.png'
+  - url: 'ciel_6.png'
     description: Pastel 50x120 cm
     sold: false
-  - url: 'pastel_13.png'
+  - url: 'ciel_13.png'
     description: Pastel 50x120 cm
     sold: false
-  - url: 'pastel_9.png'
+  - url: 'ciel_9.png'
     description: Pastel 50x120 cm
     sold: true
-  - url: 'pastel_17.jpg' # ciel gris
+  - url: 'ciel_17.jpg' # ciel gris
     description: Pastel 76x56 cm
     sold: true
-  - url: 'pastel_18.jpg' # ciel bleu, nuage gros plan
+  - url: 'ciel_18.jpg' # ciel bleu, nuage gros plan
     description: Pastel 250x200 cm
     sold: false
-  - url: 'pastel_14.jpg'
+  - url: 'ciel_20.jpg'
+    description: Pastel 56x76 cm
+    sold: false
+  - url: 'ciel_19.jpg'
+    description: Bic 76x56 cm # Ciel orageux noir et blanc
+    sold: false
+  - url: 'ciel_14.jpg'
     description: Ciel 56x76 cm
     sold: false
-  - url: 'pastel_3.png'
+  - url: 'ciel_3.png'
     description: Pastel 50x120 cm
     sold: false
-# Current max index: 18
+
+  # Current max index: 20
 
 sculptures:
   - url: 'sculpt_1.jpg'
@@ -151,15 +155,15 @@ traits:
     description: Crayon bleu 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
     sold: false
   - url: 'trait_7.jpg' # sprinting runner
-    description: Graphite (écorché) # pas de dimensions
+    description: Crayon bleu 21x18,5 cm (écorché)
     sold: false
   - url: 'trait_8.jpg' # marathon runner
-    description: Graphite (écorché) # pas de dimensions
+    description: Crayon bleu 21x18,5 cm (écorché)
     sold: false
   - url: 'trait_9.jpg' # bugatti type 57 car
-    description: Graphite (construction perspective) # pas de dimensions
+    description: Crayon bleu 18,5x21 cm (construction perspective)
     sold: false
   - url: 'trait_10.jpg' # morgan three wheelers car
-    description: Graphite (construction perspective) # pas de dimensions
+    description: Crayon bleu 18,5x21 cm (construction perspective)
     sold: false
 # Current max index: 10
