@@ -15,6 +15,7 @@
 <div id="galery-slideshow">
   <div id="galery">
     <div id="slideshow">
+      <!-- artwork: max height 450 and max width 600 -->
       <div id="artwork">
         <img
           :src="getUrl(selected)"
@@ -33,6 +34,7 @@
         :class="isSelected(artwork)"
         @click="select(artwork)"
       >
+        <!-- Thumbnail: 50 x 50 px -->
         <div class='thumb' :style="thumbUrl(artwork)"></div>
       </div>
     </div>
