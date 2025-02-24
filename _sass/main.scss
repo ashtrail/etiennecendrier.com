@@ -104,7 +104,7 @@ div#artwork {
 
 div#thumbnails {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   align-items: flex-end;
   margin-top: 10px;
 }

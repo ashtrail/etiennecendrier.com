@@ -5,86 +5,103 @@ dessins:
   - url: 'dessin_2.png'
     description: Fusain 120x80 cm
     sold: true
-  - url: 'dessin_10.png'
-    description: Fusain 80x65 cm
-    sold: false
-  - url: 'dessin_27.png'
-    description: Fusain 120x80 cm
+  #  - url: 'dessin_10.png'
+  #    description: Fusain 80x65 cm
+  #    sold: false
+  - url: 'dessin_31.png'
+    description: Fusain 75x35 cm
     sold: false
   - url: 'dessin_32.png'
     description: Fusain 80x60 cm
     sold: false
-  - url: 'dessin_20.png'
-    description: Crayon 90x65 cm
-    sold: true
-  - url: 'dessin_25.png'
-    description: Crayon 40x30 cm
-    sold: false
-  - url: 'dessin_31.png'
-    description: Fusain 75x35 cm
-    sold: false
-  - url: 'dessin_34.jpg'
-    description: Pastel 120x80 cm
-    sold: true
-  - url: 'dessin_37.jpg'
-    description: Fusain 80x60 cm
+  - url: 'dessin_27.png'
+    description: Fusain 120x80 cm
     sold: false
   - url: 'dessin_38.jpg'
     description: Graphite 35x42,5 cm
     sold: false
+  - url: 'dessin_37.jpg'
+    description: Fusain 80x60 cm
+    sold: false
+  - url: 'dessin_34.jpg'
+    description: Pastel 120x80 cm
+    sold: true
+  - url: 'dessin_25.png'
+    description: Crayon 40x30 cm
+    sold: false
+  - url: 'dessin_20.png'
+    description: Crayon 90x65 cm
+    sold: true
   - url: 'dessin_36.jpg'
-    description: Graphite 25x25 cm
+    description: Graphite sur calque 25x25 cm # Portrait Basile
+    sold: false
+  - url: 'dessin_39.jpg'
+    description: Bic 76x56 cm # Ciel orageux noir et blanc
     sold: false
   - url: 'dessin_16.png'
     description: Graphite 13,5x9 cm
     sold: true
+  - url: 'dessin_8.png'
+    description: Graphite 14x9 cm
+    sold: true
+  - url: 'dessin_41.jpg'
+    description: Graphite 15x20 cm # Demi main
+    sold: false
+  - url: 'dessin_42.jpg'
+    description: Graphite 15x20 cm # Main fermée
+    sold: false
   - url: 'dessin_5.png'
     description: Graphite 14x9 cm
     sold: true
   - url: 'dessin_17.png'
     description: Graphite 13,5x9 cm
     sold: true
-  - url: 'dessin_8.png'
-    description: Graphite 14x9 cm
-    sold: true
+  - url: 'dessin_40.jpg'
+    description: Graphite 9x14 cm # Haricot
+    sold: false
   - url: 'dessin_12.png'
     description: Graphite 9x13,5 cm
     sold: false
   - url: 'dessin_15.png'
     description: Fusain 60x100 cm
     sold: false
+  # - url: 'dessin_43.jpg'
+  #   description: Graphite # Portrait Lili, sans dimensions
+  #   sold: false
+# Current max index: 43
 
 pastels:
   - url: 'pastel_1.png'
     description: Pastel 130x130 cm
     sold: false
-  - url: 'pastel_3.png'
-    description: Pastel 50x120 cm
-    sold: false
   - url: 'pastel_4.png'
+    description: Pastel 50x120 cm
+    sold: true
+  - url: 'pastel_8.png'
     description: Pastel 50x120 cm
     sold: true
   - url: 'pastel_6.png'
     description: Pastel 50x120 cm
     sold: false
-  - url: 'pastel_8.png'
+  - url: 'pastel_13.png'
     description: Pastel 50x120 cm
-    sold: true
+    sold: false
   - url: 'pastel_9.png'
     description: Pastel 50x120 cm
     sold: true
-  - url: 'pastel_13.png'
-    description: Pastel 50x120 cm
+  - url: 'pastel_17.jpg' # ciel gris
+    description: Pastel 76x56 cm
+    sold: true
+  - url: 'pastel_18.jpg' # ciel bleu, nuage gros plan
+    description: Pastel 250x200 cm
     sold: false
   - url: 'pastel_14.jpg'
     description: Ciel 56x76 cm
     sold: false
-  - url: 'pastel_17.jpg' # ciel gris
-    description: Pastel 250x200 cm
+  - url: 'pastel_3.png'
+    description: Pastel 50x120 cm
     sold: false
-  - url: 'pastel_18.jpg' # ciel bleu, nuage gros plan
-    description: Pastel 76x56 cm
-    sold: true
+# Current max index: 18
 
 sculptures:
   - url: 'sculpt_1.jpg'
@@ -93,18 +110,26 @@ sculptures:
   # - url: 'sculpt_4.jpg'
   #   description: Cire Tête Grandeur Nature (en cours) - Vue 1
   #   sold: false
-  - url: 'sculpt_5.jpg'
-    description: Cire Tête de Cochon Grandeur Nature
-    sold: false
+  # - url: 'sculpt_5.jpg'
+  #   description: Cire Tête de Cochon Grandeur Nature
+  #   sold: false
   # - url: 'sculpt_7.jpg'
   #   description: Cire Tête Grandeur Nature
   #   sold: false
   - url: 'sculpt_3.jpg'
     description: Cire Tête Grandeur Nature (en cours)
     sold: false
-  - url: 'sculpt_6.jpg'
-    description: Auto-caricature (speed sculpt)
+  # - url: 'sculpt_6.jpg'
+  #   description: Auto-caricature (speed sculpt)
+  #   sold: false
+  # Current max index: 7
+  - url: 'sculpt_8.jpg'
+    description: Cire Autoportrait Grandeur Nature
     sold: false
+  - url: 'sculpt_9.jpg'
+    description: Cire Écorché
+    sold: false
+# Current max index: 9
 
 traits:
   - url: 'trait_2.jpg' # glasses
@@ -113,11 +138,11 @@ traits:
   # - url: 'trait_3.jpg' # seated
   #   description: Graphite 40x35 cm
   #   sold: false
-  - url: 'trait_6.jpg' # anatomy
-    description: Graphite 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
-    sold: false
   - url: 'trait_1.jpg' # profile
     description: Graphite 25x25 cm
+    sold: false
+  - url: 'trait_6.jpg' # anatomy
+    description: Graphite 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
     sold: false
   # - url: 'trait_4.jpg' # face
   #   description: Graphite 20x20 cm
@@ -125,3 +150,16 @@ traits:
   - url: 'trait_5.jpg' # skeleton
     description: Crayon bleu 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
     sold: false
+  - url: 'trait_7.jpg' # sprinting runner
+    description: Graphite (écorché) # pas de dimensions
+    sold: false
+  - url: 'trait_8.jpg' # marathon runner
+    description: Graphite (écorché) # pas de dimensions
+    sold: false
+  - url: 'trait_9.jpg' # bugatti type 57 car
+    description: Graphite (construction perspective) # pas de dimensions
+    sold: false
+  - url: 'trait_10.jpg' # morgan three wheelers car
+    description: Graphite (construction perspective) # pas de dimensions
+    sold: false
+# Current max index: 10
