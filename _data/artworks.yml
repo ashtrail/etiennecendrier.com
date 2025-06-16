@@ -1,3 +1,12 @@
+# Resizing new images
+# > convert input_filename.ext -resize "600x450>" prefix_index.jpg
+# ex: convert image.png -resize "600x450>" dessin_42.jpg
+
+# Resizing thumbnail
+# > cp input_filename.ext t_ciel_21.jpg
+# - Crop a square from the image as a thumbnail
+# > convert t_ciel_21.jpg -resize 50x50 t_ciel_21.jpg
+
 dessins:
   - url: 'dessin_1.png'
     description: Fusain 75x55 cm
@@ -29,14 +38,23 @@ dessins:
   - url: 'dessin_25.png'
     description: Crayon 40x30 cm
     sold: false
+  - url: 'dessin_45.jpg'
+    description: Graphite 14x9 cm # Portrait fille 3/4
+    sold: false
+  - url: 'dessin_46.jpg'
+    description: Sanguine 120x80 cm # Portrait de face sanguine
+    sold: false
+  - url: 'dessin_43.jpg'
+    description: Graphite 46x50 cm # Portrait Lili
+    sold: false
   - url: 'dessin_20.png'
     description: Crayon 90x65 cm
     sold: true
   - url: 'dessin_36.jpg'
     description: Graphite sur calque 25x25 cm # Portrait Basile
     sold: false
-  - url: 'dessin_43.jpg'
-    description: Graphite 46x50 cm # Portrait Lili
+  - url: 'dessin_44.jpg'
+    description: Graphite 35x27 cm # Femme accroupie
     sold: false
   - url: 'dessin_16.png'
     description: Graphite 13,5x9 cm
@@ -65,7 +83,8 @@ dessins:
   - url: 'dessin_15.png'
     description: Fusain 60x100 cm
     sold: false
-# Current max index: 43, 39 was moved to "ciels"
+
+  # Current max index: 46 (+1 for new entries), 39 was moved to "ciels"
 
 ciels:
   - url: 'ciel_1.png'
@@ -89,6 +108,12 @@ ciels:
   - url: 'ciel_17.jpg' # ciel gris
     description: Pastel 76x56 cm
     sold: true
+  - url: 'ciel_21.jpg'
+    description: Pastel 160x120 cm # ciel bleu, petit nuage en bas à droite
+    sold: false
+  - url: 'ciel_22.jpg'
+    description: Pastel 76x56 cm # gros nuage cotoneux grisé
+    sold: false
   - url: 'ciel_18.jpg' # ciel bleu, nuage gros plan
     description: Pastel 250x200 cm
     sold: false
@@ -105,9 +130,12 @@ ciels:
     description: Pastel 50x120 cm
     sold: false
 
-  # Current max index: 20
+  # Current max index: 22 (+1 for new entries)
 
 sculptures:
+  - url: 'sculpt_8.jpg'
+    description: Cire Autoportrait Grandeur Nature
+    sold: false
   - url: 'sculpt_1.jpg'
     description: Cire Tête Grandeur Nature
     sold: false
@@ -117,23 +145,26 @@ sculptures:
   # - url: 'sculpt_5.jpg'
   #   description: Cire Tête de Cochon Grandeur Nature
   #   sold: false
-  # - url: 'sculpt_7.jpg'
-  #   description: Cire Tête Grandeur Nature
+  # - url: 'sculpt_3.jpg'
+  #   description: Cire Tête Grandeur Nature (en cours)
   #   sold: false
-  - url: 'sculpt_3.jpg'
-    description: Cire Tête Grandeur Nature (en cours)
-    sold: false
   # - url: 'sculpt_6.jpg'
   #   description: Auto-caricature (speed sculpt)
   #   sold: false
-  # Current max index: 7
-  - url: 'sculpt_8.jpg'
-    description: Cire Autoportrait Grandeur Nature
-    sold: false
   - url: 'sculpt_9.jpg'
     description: Cire Écorché
     sold: false
-# Current max index: 9
+  - url: 'sculpt_7.jpg'
+    description: Cire Tête Grandeur Nature
+    sold: false
+  - url: 'sculpt_10.jpg'
+    description: Monster Clay Tête
+    sold: false
+  - url: 'sculpt_11.jpg'
+    description: Modelages en cours
+    sold: false
+
+  # Current max index: 11 (+1 for new entries)
 
 traits:
   - url: 'trait_2.jpg' # glasses
@@ -142,9 +173,16 @@ traits:
   # - url: 'trait_3.jpg' # seated
   #   description: Graphite 40x35 cm
   #   sold: false
-  - url: 'trait_1.jpg' # profile
+  - url: 'trait_1.jpg' # man profile
     description: Graphite 25x25 cm
     sold: false
+  - url: 'trait_11.jpg' # woman profile
+    description: Graphite 15x9 cm
+    sold: false
+  - url: 'trait_12.jpg' # woman 3/4
+    description: Graphite 20x30 cm
+    sold: false
+
   - url: 'trait_6.jpg' # anatomy
     description: Graphite 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
     sold: false
@@ -166,4 +204,5 @@ traits:
   - url: 'trait_10.jpg' # morgan three wheelers car
     description: Crayon bleu 18,5x21 cm (construction perspective)
     sold: false
-# Current max index: 10
+
+  # Current max index: 12 (+1 for new entries)
