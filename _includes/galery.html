@@ -59,8 +59,7 @@
     },
     computed: {
       caption: function () {
-        const soldText = (this.selected.sold) ? '(Vendu)' : '';
-        return this.selected.description + ' ' + soldText;
+        return this.selected.description;
       },
       getThumbnailsDimensions: function () {
         let cols = this.artworks.length > 16 ? 3 : 2;

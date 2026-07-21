@@ -10,199 +10,138 @@
 dessins:
   - url: 'dessin_1.png'
     description: Fusain 75x55 cm
-    sold: true
   - url: 'dessin_2.png'
     description: Fusain 120x80 cm
-    sold: true
   #  - url: 'dessin_10.png'
   #    description: Fusain 80x65 cm
-  #    sold: false
   - url: 'dessin_31.png'
     description: Fusain 75x35 cm
-    sold: false
   - url: 'dessin_32.png'
     description: Fusain 80x60 cm
-    sold: false
   - url: 'dessin_27.png'
     description: Fusain 120x80 cm
-    sold: false
   - url: 'dessin_38.jpg'
     description: Graphite 35x42,5 cm
-    sold: false
   - url: 'dessin_37.jpg'
     description: Fusain 80x60 cm
-    sold: false
   - url: 'dessin_34.jpg'
     description: Pastel 120x80 cm
-    sold: true
   - url: 'dessin_25.png'
     description: Crayon 40x30 cm
-    sold: false
   - url: 'dessin_45.jpg'
     description: Graphite 14x9 cm # Portrait fille 3/4
-    sold: false
   - url: 'dessin_46.jpg'
     description: Sanguine 120x80 cm # Portrait de face sanguine
-    sold: false
   - url: 'dessin_43.jpg'
     description: Graphite 46x50 cm # Portrait Lili
-    sold: false
   - url: 'dessin_20.png'
     description: Crayon 90x65 cm
-    sold: true
   - url: 'dessin_36.jpg'
     description: Graphite sur calque 25x25 cm # Portrait Basile
-    sold: false
   - url: 'dessin_44.jpg'
     description: Graphite 35x27 cm # Femme accroupie
-    sold: false
   - url: 'dessin_16.png'
     description: Graphite 13,5x9 cm
-    sold: true
   - url: 'dessin_8.png'
     description: Graphite 14x9 cm
-    sold: true
   - url: 'dessin_41.jpg'
     description: Graphite 15x20 cm # Demi main
-    sold: false
   - url: 'dessin_42.jpg'
     description: Graphite 15x20 cm # Main fermée
-    sold: false
   - url: 'dessin_5.png'
     description: Graphite 14x9 cm
-    sold: true
   - url: 'dessin_17.png'
     description: Graphite 13,5x9 cm
-    sold: true
   - url: 'dessin_40.jpg'
     description: Graphite 9x14 cm # Haricot
-    sold: false
   - url: 'dessin_12.png'
     description: Graphite 9x13,5 cm
-    sold: false
   - url: 'dessin_15.png'
     description: Fusain 60x100 cm
-    sold: false
 
   # Current max index: 46 (+1 for new entries), 39 was moved to "ciels"
 
 ciels:
   - url: 'ciel_1.png'
-    description: Pastel 130x130 cm
-    sold: false
+    description: Pastel sur papier 130x130 cm
   - url: 'ciel_4.png'
-    description: Pastel 50x120 cm
-    sold: true
+    description: Pastel sur papier 50x120 cm
   - url: 'ciel_8.png'
-    description: Pastel 50x120 cm
-    sold: true
+    description: Pastel sur papier 50x120 cm
   - url: 'ciel_6.png'
-    description: Pastel 50x120 cm
-    sold: false
+    description: Pastel sur papier 50x120 cm
   - url: 'ciel_13.png'
-    description: Pastel 50x120 cm
-    sold: false
+    description: Pastel sur papier 50x120 cm
   - url: 'ciel_9.png'
-    description: Pastel 50x120 cm
-    sold: true
+    description: Pastel sur papier 50x120 cm
   - url: 'ciel_17.jpg' # ciel gris
-    description: Pastel 76x56 cm
-    sold: true
+    description: Pastel sur papier 76x56 cm
   - url: 'ciel_21.jpg'
-    description: Pastel 160x120 cm # ciel bleu, petit nuage en bas à droite
-    sold: false
+    description: Pastel sur papier 160x120 cm # ciel bleu, petit nuage en bas à droite
   - url: 'ciel_22.jpg'
-    description: Pastel 76x56 cm # gros nuage cotoneux grisé
-    sold: false
+    description: Pastel sur papier 76x56 cm # gros nuage cotoneux grisé
   - url: 'ciel_18.jpg' # ciel bleu, nuage gros plan
-    description: Pastel 250x200 cm
-    sold: false
+    description: Pastel sur papier 250x200 cm
   - url: 'ciel_20.jpg'
-    description: Pastel 56x76 cm
-    sold: false
+    description: Pastel sur papier 56x76 cm
   - url: 'ciel_19.jpg'
-    description: Bic 76x56 cm # Ciel orageux noir et blanc
-    sold: false
+    description: Bic sur papier 76x56 cm # Ciel orageux noir et blanc
   - url: 'ciel_14.jpg'
-    description: Ciel 56x76 cm
-    sold: false
+    description: Pastel sur papier 56x76 cm
   - url: 'ciel_3.png'
-    description: Pastel 50x120 cm
-    sold: false
+    description: Pastel sur papier 50x120 cm
 
   # Current max index: 22 (+1 for new entries)
 
 sculptures:
   - url: 'sculpt_8.jpg'
     description: Cire Autoportrait Grandeur Nature
-    sold: false
   - url: 'sculpt_1.jpg'
     description: Cire Tête Grandeur Nature
-    sold: false
   # - url: 'sculpt_4.jpg'
   #   description: Cire Tête Grandeur Nature (en cours) - Vue 1
-  #   sold: false
   # - url: 'sculpt_5.jpg'
   #   description: Cire Tête de Cochon Grandeur Nature
-  #   sold: false
   # - url: 'sculpt_3.jpg'
   #   description: Cire Tête Grandeur Nature (en cours)
-  #   sold: false
   # - url: 'sculpt_6.jpg'
   #   description: Auto-caricature (speed sculpt)
-  #   sold: false
   - url: 'sculpt_9.jpg'
     description: Cire Écorché
-    sold: false
   - url: 'sculpt_7.jpg'
     description: Cire Tête Grandeur Nature
-    sold: false
   - url: 'sculpt_10.jpg'
     description: Monster Clay Tête
-    sold: false
   - url: 'sculpt_11.jpg'
     description: Modelages en cours
-    sold: false
 
   # Current max index: 11 (+1 for new entries)
 
 traits:
   - url: 'trait_2.jpg' # glasses
     description: Graphite 25x25 cm
-    sold: false
   # - url: 'trait_3.jpg' # seated
   #   description: Graphite 40x35 cm
-  #   sold: false
   - url: 'trait_1.jpg' # man profile
     description: Graphite 25x25 cm
-    sold: false
   - url: 'trait_11.jpg' # woman profile
     description: Graphite 15x9 cm
-    sold: false
   - url: 'trait_12.jpg' # woman 3/4
     description: Graphite 20x30 cm
-    sold: false
 
   - url: 'trait_6.jpg' # anatomy
     description: Graphite 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
-    sold: false
   # - url: 'trait_4.jpg' # face
   #   description: Graphite 20x20 cm
-  #   sold: false
   - url: 'trait_5.jpg' # skeleton
     description: Crayon bleu 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
-    sold: false
   - url: 'trait_7.jpg' # sprinting runner
     description: Crayon bleu 21x18,5 cm (écorché)
-    sold: false
   - url: 'trait_8.jpg' # marathon runner
     description: Crayon bleu 21x18,5 cm (écorché)
-    sold: false
   - url: 'trait_9.jpg' # bugatti type 57 car
     description: Crayon bleu 18,5x21 cm (construction perspective)
-    sold: false
   - url: 'trait_10.jpg' # morgan three wheelers car
     description: Crayon bleu 18,5x21 cm (construction perspective)
-    sold: false
 
   # Current max index: 12 (+1 for new entries)
