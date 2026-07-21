@@ -8,58 +8,68 @@
 # > convert t_ciel_21.jpg -resize 50x50 t_ciel_21.jpg
 
 dessins:
-  - url: 'dessin_1.png'
-    description: Fusain 75x55 cm
-  - url: 'dessin_2.png'
-    description: Fusain 120x80 cm
-  #  - url: 'dessin_10.png'
-  #    description: Fusain 80x65 cm
-  - url: 'dessin_31.png'
-    description: Fusain 75x35 cm
-  - url: 'dessin_32.png'
-    description: Fusain 80x60 cm
-  - url: 'dessin_27.png'
-    description: Fusain 120x80 cm
-  - url: 'dessin_38.jpg'
-    description: Graphite 35x42,5 cm
-  - url: 'dessin_37.jpg'
-    description: Fusain 80x60 cm
-  - url: 'dessin_34.jpg'
-    description: Pastel 120x80 cm
-  - url: 'dessin_25.png'
-    description: Crayon 40x30 cm
   - url: 'dessin_45.jpg'
-    description: Graphite 14x9 cm # Portrait fille 3/4
+    description: Graphite sur papier 14x9 cm # Portrait fille 3/4
   - url: 'dessin_46.jpg'
-    description: Sanguine 120x80 cm # Portrait de face sanguine
+    description: Sanguine sur papier 120x80 cm # Portrait de face sanguine
   - url: 'dessin_43.jpg'
-    description: Graphite 46x50 cm # Portrait Lili
+    description: Graphite sur papier 46x50 cm # Portrait Lili
   - url: 'dessin_20.png'
-    description: Crayon 90x65 cm
+    description: Crayon sur papier 90x65 cm
   - url: 'dessin_36.jpg'
-    description: Graphite sur calque 25x25 cm # Portrait Basile
+    description: Graphite sur papier sur calque 25x25 cm # Portrait Basile
   - url: 'dessin_44.jpg'
-    description: Graphite 35x27 cm # Femme accroupie
+    description: Graphite sur papier 35x27 cm # Femme accroupie
+  - url: 'dessin_48.jpg'
+    description: Fusain sur papier 75x60 cm
+  - url: 'dessin_51.jpg'
+    description: Graphite sur papier 14x9 cm
+  - url: 'dessin_50.jpg'
+    description: Graphite sur papier 14x18 cm
+  - url: 'dessin_1.png'
+    description: Fusain sur papier 75x55 cm
+  - url: 'dessin_2.png'
+    description: Fusain sur papier 120x80 cm
+  #  - url: 'dessin_10.png'
+  #    description: Fusain sur papier 80x65 cm
+  # - url: 'dessin_31.png'
+  #   description: Fusain sur papier 75x35 cm
+  - url: 'dessin_32.png'
+    description: Fusain sur papier 80x60 cm
+  - url: 'dessin_27.png'
+    description: Fusain sur papier 120x80 cm
+  - url: 'dessin_38.jpg'
+    description: Graphite sur papier 35x42,5 cm
+  # - url: 'dessin_37.jpg'
+  #   description: Fusain sur papier 80x60 cm
+  - url: 'dessin_34.jpg'
+    description: Pastel sur papier 120x80 cm
+  - url: 'dessin_25.png'
+    description: Crayon sur papier 40x30 cm
+  - url: 'dessin_52.jpg'
+    description: Graphite sur papier 32,5x25 cm
+  - url: 'dessin_47.jpg'
+    description: Fusain sur papier 32,5x50 cm
   - url: 'dessin_16.png'
-    description: Graphite 13,5x9 cm
+    description: Graphite sur papier 13,5x9 cm
   - url: 'dessin_8.png'
-    description: Graphite 14x9 cm
+    description: Graphite sur papier 14x9 cm
   - url: 'dessin_41.jpg'
-    description: Graphite 15x20 cm # Demi main
+    description: Graphite sur papier 15x20 cm # Demi main
   - url: 'dessin_42.jpg'
-    description: Graphite 15x20 cm # Main fermée
+    description: Graphite sur papier 15x20 cm # Main fermée
   - url: 'dessin_5.png'
-    description: Graphite 14x9 cm
+    description: Graphite sur papier 14x9 cm
   - url: 'dessin_17.png'
-    description: Graphite 13,5x9 cm
+    description: Graphite sur papier 13,5x9 cm
   - url: 'dessin_40.jpg'
-    description: Graphite 9x14 cm # Haricot
+    description: Graphite sur papier 9x14 cm # Haricot
   - url: 'dessin_12.png'
-    description: Graphite 9x13,5 cm
+    description: Graphite sur papier 9x13,5 cm
   - url: 'dessin_15.png'
-    description: Fusain 60x100 cm
+    description: Fusain sur papier 60x100 cm
 
-  # Current max index: 46 (+1 for new entries), 39 was moved to "ciels"
+  # Current max index: 52 (+1 for new entries), 39 was moved to "ciels"
 
 ciels:
   - url: 'ciel_1.png'
@@ -72,26 +82,34 @@ ciels:
     description: Pastel sur papier 50x120 cm
   - url: 'ciel_13.png'
     description: Pastel sur papier 50x120 cm
-  - url: 'ciel_9.png'
-    description: Pastel sur papier 50x120 cm
   - url: 'ciel_17.jpg' # ciel gris
     description: Pastel sur papier 76x56 cm
   - url: 'ciel_21.jpg'
     description: Pastel sur papier 160x120 cm # ciel bleu, petit nuage en bas à droite
+  - url: 'ciel_9.jpg'
+    description: Pastel sur papier 50x120 cm
+  - url: 'ciel_23.jpg'
+    description: Pastel sur papier 80x120 cm
   - url: 'ciel_22.jpg'
     description: Pastel sur papier 76x56 cm # gros nuage cotoneux grisé
   - url: 'ciel_18.jpg' # ciel bleu, nuage gros plan
     description: Pastel sur papier 250x200 cm
-  - url: 'ciel_20.jpg'
-    description: Pastel sur papier 56x76 cm
   - url: 'ciel_19.jpg'
     description: Bic sur papier 76x56 cm # Ciel orageux noir et blanc
+  - url: 'ciel_26.jpg'
+    description: Pastel sur papier 76x56 cm
   - url: 'ciel_14.jpg'
     description: Pastel sur papier 56x76 cm
   - url: 'ciel_3.png'
     description: Pastel sur papier 50x120 cm
+  - url: 'ciel_24.jpg'
+    description: Pastel sur papier 76x56 cm
+  - url: 'ciel_25.jpg'
+    description: Pastel sur papier 76x56 cm
+  - url: 'ciel_20.jpg'
+    description: Pastel sur papier 56x76 cm
 
-  # Current max index: 22 (+1 for new entries)
+  # Current max index: 26 (+1 for new entries)
 
 sculptures:
   - url: 'sculpt_8.jpg'
@@ -110,38 +128,37 @@ sculptures:
     description: Cire Écorché
   - url: 'sculpt_7.jpg'
     description: Cire Tête Grandeur Nature
-  - url: 'sculpt_10.jpg'
-    description: Monster Clay Tête
-  - url: 'sculpt_11.jpg'
-    description: Modelages en cours
+  # - url: 'sculpt_10.jpg'
+  #   description: Monster Clay Tête
+  # - url: 'sculpt_11.jpg'
+  #   description: Modelages en cours
 
   # Current max index: 11 (+1 for new entries)
 
 traits:
   - url: 'trait_2.jpg' # glasses
-    description: Graphite 25x25 cm
+    description: Graphite sur papier 25x25 cm # image à update
   # - url: 'trait_3.jpg' # seated
-  #   description: Graphite 40x35 cm
+  #   description: Graphite sur papier 40x35 cm
   - url: 'trait_1.jpg' # man profile
-    description: Graphite 25x25 cm
+    description: Graphite sur papier 25x25 cm
   - url: 'trait_11.jpg' # woman profile
-    description: Graphite 15x9 cm
+    description: Graphite sur papier 15x9 cm
   - url: 'trait_12.jpg' # woman 3/4
-    description: Graphite 20x30 cm
-
+    description: Graphite sur papier 20x30 cm
   - url: 'trait_6.jpg' # anatomy
-    description: Graphite 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
+    description: Graphite sur papier 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
   # - url: 'trait_4.jpg' # face
   #   description: Graphite 20x20 cm
   - url: 'trait_5.jpg' # skeleton
-    description: Crayon bleu 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
+    description: Crayon sur papier bleu 21x18,5 cm (étude anatomique faite en cours pour mes étudiants)
   - url: 'trait_7.jpg' # sprinting runner
-    description: Crayon bleu 21x18,5 cm (écorché)
+    description: Crayon bleu sur papier 21x18,5 cm (écorché)
   - url: 'trait_8.jpg' # marathon runner
-    description: Crayon bleu 21x18,5 cm (écorché)
+    description: Crayon bleu sur papier 21x18,5 cm (écorché)
   - url: 'trait_9.jpg' # bugatti type 57 car
-    description: Crayon bleu 18,5x21 cm (construction perspective)
+    description: Crayon bleu sur papier 18,5x21 cm (construction perspective)
   - url: 'trait_10.jpg' # morgan three wheelers car
-    description: Crayon bleu 18,5x21 cm (construction perspective)
+    description: Crayon bleu sur papier 18,5x21 cm (construction perspective)
 
   # Current max index: 12 (+1 for new entries)
