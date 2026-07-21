@@ -15,9 +15,9 @@ dessins:
   - url: 'dessin_43.jpg'
     description: Graphite sur papier 46x50 cm # Portrait Lili
   - url: 'dessin_20.png'
-    description: Crayon sur papier 90x65 cm
+    description: Graphite sur panneau 90x65 cm
   - url: 'dessin_36.jpg'
-    description: Graphite sur papier sur calque 25x25 cm # Portrait Basile
+    description: Graphite sur calque 25x25 cm # Portrait Basile
   - url: 'dessin_44.jpg'
     description: Graphite sur papier 35x27 cm # Femme accroupie
   - url: 'dessin_48.jpg'
@@ -67,7 +67,7 @@ dessins:
   - url: 'dessin_12.png'
     description: Graphite sur papier 9x13,5 cm
   - url: 'dessin_15.png'
-    description: Fusain sur papier 60x100 cm
+    description: Graphite sur papier 60x100 cm
 
   # Current max index: 52 (+1 for new entries), 39 was moved to "ciels"
 
@@ -125,7 +125,7 @@ sculptures:
   # - url: 'sculpt_6.jpg'
   #   description: Auto-caricature (speed sculpt)
   - url: 'sculpt_9.jpg'
-    description: Cire Écorché
+    description: Plastiline Écorché
   - url: 'sculpt_7.jpg'
     description: Cire Tête Grandeur Nature
   # - url: 'sculpt_10.jpg'
@@ -155,7 +155,7 @@ traits:
   - url: 'trait_7.jpg' # sprinting runner
     description: Crayon bleu sur papier 21x18,5 cm (écorché)
   - url: 'trait_8.jpg' # marathon runner
-    description: Crayon bleu sur papier 21x18,5 cm (écorché)
+    description: Crayon bleu sur papier 21x18,5 cm (écorchée)
   - url: 'trait_9.jpg' # bugatti type 57 car
     description: Crayon bleu sur papier 18,5x21 cm (construction perspective)
   - url: 'trait_10.jpg' # morgan three wheelers car
